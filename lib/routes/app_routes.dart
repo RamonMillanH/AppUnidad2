@@ -5,9 +5,9 @@ class AppRoutes{
   static const initialRoute = 'home';
   static Map<String, Widget Function(BuildContext)> routes = {
     'home': (BuildContext context) => const HomeScreen(),
-    'home2': (BuildContext context) => const HomeScreen2(),
-    'home3': (BuildContext context) => const HomeScreen3(),
-    'home4': (BuildContext context) => const HomeScreen4(),
+    'opinion': (BuildContext context) => const HomeOpinion(),
+    'mercados': (BuildContext context) => const HomeMercados(),
+    'cultura': (BuildContext context) => const HomeCultura(),
   };
 
   static Route<dynamic> onGenerateRoute(RouteSettings settings){
